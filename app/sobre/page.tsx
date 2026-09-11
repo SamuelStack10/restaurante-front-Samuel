@@ -1,8 +1,10 @@
 import Image from "next/image";
+import Navbar from "@/components/Navbar"
 
 export default function SobrePage() {
   return (
     <main className="min-h-screen bg-red-900 px-6 py-12">
+      <Navbar />
       <div className="mx-auto max-w-5xl">
 
         {/* Título */}

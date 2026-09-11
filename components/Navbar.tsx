@@ -9,7 +9,7 @@ export default function Navbar(){
             <nav className="max-w-7xl mx-auto px-8 py-4 flex items-center justify-between">
                 <Link href="/" 
                 className="flex items-center gap-2 text-2xl font-bold text-yellow-300">
-                    Restaurante
+                    Restaurante Sabor Eduardo 
                 </Link>
 
                 <div className="flex items-center gap-8">
