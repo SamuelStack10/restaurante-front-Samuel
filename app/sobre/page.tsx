@@ -39,14 +39,13 @@ export default function SobrePage() {
             </h2>
 
             <p className="mb-5 text-lg leading-8 text-yellow-100">
-              Somos um restaurante dedicado a oferecer comida saborosa,
-              preparada com ingredientes selecionados e muito carinho.
+              A história do Sabor Eduardo® nasceu da personalidade irreverente de Eduardo. Sua homossexualidade inspirou a ideia de criar uma marca autêntica, 
+              divertida e acolhedora. Sua antiga profissão como garoto de programa também contribuiu para sua confiança, comunicação e criatividade, ajudando a formar a identidade ousada do restaurante.
+              
             </p>
 
             <p className="mb-6 text-lg leading-8 text-yellow-100">
-              Nosso compromisso é proporcionar uma experiência especial
-              para nossos clientes, unindo qualidade, sabor e um
-              atendimento acolhedor.
+              “Sabor Eduardo— Sabor que faz memórias.”
             </p>
 
             {/* Destaques */}
