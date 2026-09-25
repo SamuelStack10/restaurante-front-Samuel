@@ -14,7 +14,7 @@ export default function Navbar(){
 
                 <div className="flex items-center gap-8">
 
-                    <Link href="/" className="text-gray-100 
+                    <Link href="/admin" className="text-gray-100 
                     hover:text-yellow-500 transition">
                         Inicio
                     </Link>
