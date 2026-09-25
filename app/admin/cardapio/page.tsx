@@ -4,6 +4,7 @@
 import Image from "next/image"
 import { useEffect, useState } from "react"
 import Swal from "sweetalert2"
+import Navbar from "@/components/Navbar"
 
 interface Produto {
     id: number
@@ -118,6 +119,7 @@ export default function CardapioAdmin() {
     return (
         <main className="min-h-screen bg-red-900 p-8">
 
+            <Navbar />
             <div className="mx-auto max-w-6xl">
 
                 <h1 className="mb-6 text-3xl font-bold text-yellow-300">

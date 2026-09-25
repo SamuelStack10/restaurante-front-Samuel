@@ -16,7 +16,7 @@ export default function Pedidos() {
     
     <main className="min-h-screen bg-red-900 items-center justify-center p-6 ">
     <Navbar />
-    <div className="w-full max-w-lg bg-red-950 rounded-xl shadow-md p-8 grid grid-cols mt-4 ml-120 gap-4">
+    <div className="w-full max-w-lg bg-red-950 rounded-xl shadow-md p-8 grid grid-cols mt-10 ml-120 gap-4">
      
      <Image
      src="/RestauranteLogo2.jpeg"
