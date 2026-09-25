@@ -17,7 +17,7 @@ export default function AdminPage() {
 
         try {
 
-            const response = await fetch(`http://${process.env.API_URL}/produtos`, {
+            const response = await fetch(`http://${process.env.NEXT_PUBLIC_API_URL}/produtos`, {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json"
