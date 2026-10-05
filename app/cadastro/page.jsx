@@ -15,7 +15,7 @@ export default function Cadastro() {
     async function cadastrar(e){
         e.preventDefault()
         try {
-            await axios.post(`https://${process.env.NEXT_PUBLIC_API_URL}/register`, {
+            await axios.post(`${process.env.NEXT_PUBLIC_API_URL}/register`, {
                 nome,
                 email,
                 senha
