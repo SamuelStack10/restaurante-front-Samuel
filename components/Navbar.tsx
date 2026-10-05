@@ -1,7 +1,14 @@
-import Link from "next/link";
+"use client";
 
+import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 export default function Navbar(){
+    const pathname = usePathname();
+
+    if (pathname === "/login") {
+        return null;
+    }
 
     return(
 

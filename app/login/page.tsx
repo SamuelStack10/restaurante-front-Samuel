@@ -20,6 +20,8 @@ export default function Login(){
             localStorage.setItem("admin_logado","true")
 
             router.push("/admin")
+            
+            alert("Login realizado com sucesso!")
             return
         }
         
