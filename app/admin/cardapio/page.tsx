@@ -22,7 +22,7 @@ export default function CardapioAdmin() {
     async function carregarProdutos() {
         try {
             const response = await fetch(
-                `http://${process.env.NEXT_PUBLIC_API_URL}/produtos/`
+                `${process.env.NEXT_PUBLIC_API_URL}/produtos`
             )
 
             if (!response.ok) {
@@ -68,7 +68,7 @@ export default function CardapioAdmin() {
         try {
 
             const response = await fetch(
-                `http://${process.env.NEXT_PUBLIC_API_URL}/produtos/${id}`,
+                `${process.env.NEXT_PUBLIC_API_URL}/produtos/${id}`,
                 {
                     method: "DELETE"
                 }
