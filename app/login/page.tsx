@@ -4,7 +4,6 @@
 import { useRouter } from "next/navigation"
 import { useState } from "react"
 import Swal from "sweetalert2"
-import Cadastro from "../cadastro/page"
 import Image from "next/image"
 
 
@@ -21,9 +20,14 @@ export default function Login(){
         if(usuario === "admin" && senha === "123456"){
             localStorage.setItem("admin_logado","true")
 
-            router.push("/admin")
+            router.push("/sobre")
             
-            alert("Login realizado com sucesso!")
+            Swal.fire({
+                title:"Login realizado com sucesso",
+                text:"Bem-vindo ao painel administrativo",
+                icon:"success",
+                confirmButtonText:"OK"
+            })
             return
         }
         

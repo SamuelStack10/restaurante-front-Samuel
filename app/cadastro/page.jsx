@@ -15,7 +15,7 @@ export default function Cadastro() {
     async function cadastrar(e){
         e.preventDefault()
         try {
-            await axios.post("http://localhost:3001/register", {
+            await axios.post("https://restaurante-api-samuel.onrender.com/register", {
                 nome,
                 email,
                 senha

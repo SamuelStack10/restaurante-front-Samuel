@@ -26,7 +26,7 @@ export default function Navbar(){
                         Inicio
                     </Link>
 
-                    <Link href="/cardapio" 
+                    <Link href="/admin/cardapio" 
                     className="text-gray-100 
                     hover:text-yellow-500 transition">
                         Cardápio
