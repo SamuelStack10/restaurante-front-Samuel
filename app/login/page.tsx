@@ -4,6 +4,8 @@
 import { useRouter } from "next/navigation"
 import { useState } from "react"
 import Swal from "sweetalert2"
+import Cadastro from "../cadastro/page"
+import Image from "next/image"
 
 
 export default function Login(){
@@ -36,6 +38,15 @@ export default function Login(){
     return(
         <main className="flex min-h-screen items-center justify-center bg-red-900">
             <div className="w-full max-w-md rounded-2xl bg-red-950 p-8 shadow-lg">
+
+                <Image
+                src="/RestauranteLogo2.jpeg"
+                alt="Logo do restaurante"
+                width={100}
+                height={100}
+                className="mx-auto mb-4 rounded-full"
+                />
+
                 <h1 className="text-3xl mb-8 text-center text-yellow-300 font-bold ">Área Administrativa</h1>
             
             
@@ -71,7 +82,14 @@ export default function Login(){
                 Entrar
             </button>
 
+            <a href="/cadastro" className="block mt-4 text-center text-yellow-300 hover:underline">
+                Não tem uma conta? Cadastre-se
+            </a>
             </div>
+            
         </main>
+
+        
     )
+    
 }
